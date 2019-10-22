@@ -5,4 +5,8 @@
         <RootNamespace>Faker</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="generator\impl" />
+    </ItemGroup>
+
 </Project>
