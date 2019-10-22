@@ -3,10 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp2.2</TargetFramework>
         <RootNamespace>Faker</RootNamespace>
+        <LangVersion>latest</LangVersion>
     </PropertyGroup>
-
-    <ItemGroup>
-      <Folder Include="generator\impl" />
-    </ItemGroup>
 
 </Project>

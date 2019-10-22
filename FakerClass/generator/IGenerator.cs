@@ -5,6 +5,7 @@ namespace Faker.generator
     public interface IGenerator
     {
         object Generate();
-        Type GetType();
+        
+        Type GetGenType();
     }
 }

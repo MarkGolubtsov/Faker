@@ -1,4 +1,5 @@
 using System;
+using Faker.generator.impl;
 using NUnit.Framework;
 namespace Tests
 {
@@ -12,9 +13,8 @@ namespace Tests
         [Test]
         public void Test1()
         {
-            Faker.Faker faker = new Faker.Faker();
-            Console.WriteLine(faker.create<Faker.Entity>());
-            Console.WriteLine("123");
+            Random random = new Random();
+            Console.WriteLine((short) random.Next(short.MinValue, short.MaxValue + 1));
             Assert.True(true);
         }
     }
