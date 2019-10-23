@@ -11,5 +11,10 @@ namespace Faker.generator.impl
             random.NextBytes(result);
             return result[0];
         }
+
+        public Type GetGenType()
+        {
+            return typeof(byte);
+        }
     }
 }
